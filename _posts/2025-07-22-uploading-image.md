@@ -14,7 +14,7 @@ Let's work !
 
 ## Practice
 
-![test_kitten_from_internet](https://pethelpful.com/.image/c_fill,w_655,h_599,g_faces:center/MTc0OTY4NTc1MDA0NTE3ODI4/a-chihuahua-temperament-the-good-the-bad-and-the-ugly.jpg)
+![test_kitten_from_internet](https://media.npr.org/assets/img/2021/04/27/prancer_wide-56fad817e54d94976cbbcabb4d6bb0b9f061977c.jpg?s=1400&c=100&f=jpeg)
 
 This is how to upload the image from the internet!
 
