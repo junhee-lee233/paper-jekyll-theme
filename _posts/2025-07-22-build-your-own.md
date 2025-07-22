@@ -13,9 +13,11 @@ Let's make your own posts!
 
 # Team description
 ## Teammates
-1. A
-2. B
-3. C
+1. Bùi Như Hưng
+2. Nguyễn Châu Phúc Huy
+3. Vương Nguyên Hân
+4. Trần Tấn Đạt
+5. 
 
 ## Team moto!
 blabla~
