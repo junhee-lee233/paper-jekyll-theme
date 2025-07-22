@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "A Full and Comprehensive Style Test"
-description: "Test post for style"
+layout: page
+title: "Some general features about our project"
+description: "General information"
 date: 2024-08-15
-tags: [test, style]
+tags: [introduction, general]
 comments: true
 ---
 
