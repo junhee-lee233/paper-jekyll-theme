@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-<section class="project-description" style="max-width: 850px; margin: auto; padding: 2rem; line-height: 1.7;">
+<section style="max-width: 850px; margin: auto; padding: 2rem; line-height: 1.7; font-family: 'Segoe UI', sans-serif; color: #333; background-color: #fff; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); border-radius: 12px;">
 
   <h1 style="font-size: 2rem; color: #2c3e50; margin-bottom: 1rem;">📌 Project Overview</h1>
   <p><strong>Description:</strong> General information</p>
@@ -11,8 +11,8 @@ title: Home
 
   <hr style="margin: 2rem 0;">
 
-  <h2>👥 Teammates</h2>
-  <ul>
+  <h2 style="font-size: 1.6rem; color: #34495e; border-left: 4px solid #3498db; padding-left: 10px;">👥 Teammates</h2>
+  <ul style="padding-left: 1.5rem; margin-top: 0.5rem;">
     <li>Bùi Như Hưng</li>
     <li>Nguyễn Châu Phúc Huy</li>
     <li>Vương Nguyên Hân</li>
@@ -22,50 +22,50 @@ title: Home
 
   <hr style="margin: 2rem 0;">
 
-  <h2>🎯 Team Project</h2>
+  <h2 style="font-size: 1.6rem; color: #34495e; border-left: 4px solid #3498db; padding-left: 10px;">🎯 Team Project</h2>
   <p><strong>Basic Sign Language Recognition using Teachable Machine</strong></p>
 
-  <h3>🔍 Project Goal</h3>
+  <h3 style="font-size: 1.3rem; color: #2980b9;">🔍 Project Goal</h3>
   <p>
     Our goal is to enable computers to recognize basic sign language gestures using machine learning. This helps raise awareness about communication barriers for the hearing-impaired and supports daily interactions in education and public services. The project promotes inclusivity and shows how beginner-friendly tools like Teachable Machine can be applied to real-world problems.
   </p>
 
-  <h3>📁 Dataset & Class Configuration</h3>
-  <ul>
+  <h3 style="font-size: 1.3rem; color: #2980b9;">📁 Dataset & Class Configuration</h3>
+  <ul style="padding-left: 1.5rem;">
     <li>Collected hand gesture images for numbers <strong>0–5</strong></li>
     <li>Each class includes <strong>900–1000 images</strong></li>
     <li>Diverse lighting, backgrounds, and hand positions</li>
     <li>Clear, logically organized class labels</li>
   </ul>
 
-  <h3>🛠️ Teachable Machine Setup</h3>
-  <ul>
-    <li>Used <strong>Image Project > Standard Image Model</strong></li>
+  <h3 style="font-size: 1.3rem; color: #2980b9;">🛠️ Teachable Machine Setup</h3>
+  <ul style="padding-left: 1.5rem;">
+    <li>Used <strong>Image Project &gt; Standard Image Model</strong></li>
     <li>Trained the model with our dataset</li>
     <li>Split data into training and testing sets</li>
   </ul>
 
-  <h3>💻 Code & Customization</h3>
-  <ul>
+  <h3 style="font-size: 1.3rem; color: #2980b9;">💻 Code & Customization</h3>
+  <ul style="padding-left: 1.5rem;">
     <li>Exported the model as TensorFlow code</li>
     <li>Modified Python script for webcam & image input</li>
     <li>Interface shows prediction confidence and feedback</li>
   </ul>
 
-  <h3>🚀 Running the Project</h3>
-  <ul>
+  <h3 style="font-size: 1.3rem; color: #2980b9;">🚀 Running the Project</h3>
+  <ul style="padding-left: 1.5rem;">
     <li>Real-time gesture recognition via webcam</li>
     <li>Option to upload images for recognition</li>
     <li>Shows prediction confidence percentage</li>
   </ul>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; justify-content: center;">
     <img src="{{ '/assets/images/z6836083343308_065b64b708836ee3a6f6bb7a1c07a106.jpg' | relative_url }}" alt="Demo 1" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
     <img src="{{ '/assets/images/z6836083343339_33801683120ed77396540f9d6c09710d.jpg' | relative_url }}" alt="Demo 2" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
   </div>
 
-  <h3 style="margin-top: 2rem;">🌱 Future Plans</h3>
-  <ul>
+  <h3 style="font-size: 1.3rem; color: #2980b9; margin-top: 2rem;">🌱 Future Plans</h3>
+  <ul style="padding-left: 1.5rem;">
     <li>Expand gesture recognition to full alphabet and common phrases</li>
     <li>Integrate voice output for real-time interaction</li>
     <li>Develop a mobile version using TensorFlow Lite</li>
