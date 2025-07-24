@@ -3,15 +3,15 @@ layout: page
 title: Home
 ---
 
-<section class="project-description">
+<section class="project-description" style="max-width: 850px; margin: auto; padding: 2rem; line-height: 1.7;">
 
-  <h1>Some general features about our project</h1>
+  <h1 style="font-size: 2rem; color: #2c3e50; margin-bottom: 1rem;">📌 Project Overview</h1>
   <p><strong>Description:</strong> General information</p>
   <p><em>Date:</em> August 15, 2024</p>
 
-  <hr>
+  <hr style="margin: 2rem 0;">
 
-  <h3>Teammates</h3>
+  <h2>👥 Teammates</h2>
   <ul>
     <li>Bùi Như Hưng</li>
     <li>Nguyễn Châu Phúc Huy</li>
@@ -20,59 +20,57 @@ title: Home
     <li>Trần Tấn Đạt</li>
   </ul>
 
+  <hr style="margin: 2rem 0;">
 
-  <hr>
-
-  <h2>Team Project</h2>
+  <h2>🎯 Team Project</h2>
   <p><strong>Basic Sign Language Recognition using Teachable Machine</strong></p>
 
-  <h3>Project goal</h3>
-  <p>Our goal is to enable computers to recognize basic sign language gestures using machine learning. This helps raise awareness about communication barriers for the hearing-impaired and can support daily interactions, especially in education and public services. The project promotes inclusivity and shows how beginner-friendly tools like Teachable Machine can be applied to real-world problems.</p>
+  <h3>🔍 Project Goal</h3>
+  <p>
+    Our goal is to enable computers to recognize basic sign language gestures using machine learning. This helps raise awareness about communication barriers for the hearing-impaired and supports daily interactions in education and public services. The project promotes inclusivity and shows how beginner-friendly tools like Teachable Machine can be applied to real-world problems.
+  </p>
 
-  <h3>Inside our project</h3>
-
-  <h4>Dataset and Class Configuration</h4>
+  <h3>📁 Dataset & Class Configuration</h3>
   <ul>
-    <li>Collected images of hand gestures for numbers from <strong>0 to 5</strong></li>
+    <li>Collected hand gesture images for numbers <strong>0–5</strong></li>
     <li>Each class includes <strong>900–1000 images</strong></li>
-    <li>Diverse lighting, backgrounds, and hand positions were used</li>
-    <li>Class labels are clear and logically organized</li>
+    <li>Diverse lighting, backgrounds, and hand positions</li>
+    <li>Clear, logically organized class labels</li>
   </ul>
 
-  <h4>Teachable Machine Setup</h4>
+  <h3>🛠️ Teachable Machine Setup</h3>
   <ul>
-    <li>Used <strong>Image Project > Standard Image Model</strong> in Teachable Machine</li>
-    <li>Trained the model with our custom dataset</li>
-    <li>Data was split into training and testing sets for fair evaluation</li>
+    <li>Used <strong>Image Project > Standard Image Model</strong></li>
+    <li>Trained the model with our dataset</li>
+    <li>Split data into training and testing sets</li>
   </ul>
 
-  <h4>Code and customization</h4>
+  <h3>💻 Code & Customization</h3>
   <ul>
     <li>Exported the model as TensorFlow code</li>
-    <li>Modified the Python script to support recognition via webcam or uploaded images</li>
-    <li>Customized the interface to show prediction accuracy and feedback</li>
+    <li>Modified Python script for webcam & image input</li>
+    <li>Interface shows prediction confidence and feedback</li>
   </ul>
 
-  <h4>Running the project</h4>
+  <h3>🚀 Running the Project</h3>
   <ul>
-    <li>System recognizes gestures shown in front of a webcam in real-time</li>
-    <li>Alternatively, the user can upload an image for gesture recognition</li>
-    <li>Results are shown with prediction confidence percentage</li>
+    <li>Real-time gesture recognition via webcam</li>
+    <li>Option to upload images for recognition</li>
+    <li>Shows prediction confidence percentage</li>
   </ul>
-  <img src="{{ '/assets/images/z6836083343308_065b64b708836ee3a6f6bb7a1c07a106.jpg' | relative_url }}" alt="Ảnh demo 1" width="400">
-  <img src="{{ '/assets/images/z6836083343339_33801683120ed77396540f9d6c09710d.jpg' | relative_url }}" alt="Ảnh demo 2" width="400">
 
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+    <img src="{{ '/assets/images/z6836083343308_065b64b708836ee3a6f6bb7a1c07a106.jpg' | relative_url }}" alt="Demo 1" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    <img src="{{ '/assets/images/z6836083343339_33801683120ed77396540f9d6c09710d.jpg' | relative_url }}" alt="Demo 2" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  </div>
 
-  <h3>Our future plan for this project</h3>
+  <h3 style="margin-top: 2rem;">🌱 Future Plans</h3>
   <ul>
-    <li>Expand gestures to include full alphabet and common phrases</li>
-    <li>Add voice output for real-time conversation support</li>
-    <li>Make a mobile version with TensorFlow Lite</li>
-    <li>Improve the dataset with more people and environments</li>
-    <li>Build a tool that truly helps the hearing-impaired connect better</li>
+    <li>Expand gesture recognition to full alphabet and common phrases</li>
+    <li>Integrate voice output for real-time interaction</li>
+    <li>Develop a mobile version using TensorFlow Lite</li>
+    <li>Improve dataset with more users and environments</li>
+    <li>Create a tool that supports real hearing-impaired users</li>
   </ul>
-
-  
-
 
 </section>
