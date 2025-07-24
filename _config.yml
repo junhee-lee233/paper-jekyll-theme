@@ -1,15 +1,15 @@
 # Site settings
-title: "Paper Jekyll Theme"
+title: "Basic hand sign gestures"
 description: > 
-  Write a description of your website here.
+  It's just a normal description.
 
 author: Johnny Appleseed
 email: johnny@appleseed.com
 twitter_username: _HairForceOne
 github_username: mkchoi212
 
-baseurl: "/paper-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://junhee-lee233.github.io"  # the base hostname & protocol for your site
+baseurl: "/Basic-hand-sign-gestures" # the subpath of your site, e.g. /blog
+url: "https://NHung-IT.github.io"  # the base hostname & protocol for your site
 
 google_analytics_id: UA-1111111111-1
 disqus_id:
