@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Some general features about our project"
 description: "General information"
 date: 2024-08-15
